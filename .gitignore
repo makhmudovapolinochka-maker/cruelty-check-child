@@ -1,0 +1,14 @@
+# Fichiers système Mac
+.DS_Store
+
+# Réglages perso de l'éditeur
+.vscode/
+.idea/
+
+# Dépendances et fichiers générés
+node_modules/
+vendor/
+*.log
+
+# Fichiers sensibles
+.env
