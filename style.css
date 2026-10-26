@@ -8,3 +8,8 @@ Text Domain: cruelty-check-child
 */
 
 /* Vos styles personnalisés commencent ici */
+:root {
+    --primary-color: #f1dede; /* Couleur principale */
+    --secondary-color: #fbf6ee ; /* Couleur secondaire */
+    --font-family: 'Arial', sans-serif; /* Police de caractères */
+}
