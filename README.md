@@ -34,7 +34,7 @@ Grâce à un moteur de recherche par marque ou par produit, l'utilisateur vérif
 - Eco-Quiz sur 3 niveaux, avec score et correction
 - Chatbot IA « Besoin d'aide ? » sur les mentions cruelty-free, végan et emballage responsable
 
-## 🤖 Fonction intelligente : le chatbot IA
+## Fonction intelligente : le chatbot IA
 
 **Pourquoi ?** Nos visiteurs confondent souvent les mentions végan, cruelty-free et
 emballage responsable, et doivent chercher l'information sur plusieurs pages.
