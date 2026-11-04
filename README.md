@@ -15,14 +15,14 @@ Grâce à un moteur de recherche par marque ou par produit, l'utilisateur vérif
 
 **Notre message :** « Avant d'acheter, vérifie ta marque en quelques secondes. »
 
-## 👥 L'équipe
+## L'équipe
 
 | Membre | Rôle | Missions |
 |---|---|---|
 | **Ihsan Allali** | Cheffe de projet et UX/UI designer | Planning, parcours utilisateur, wireframes, maquettes, rédaction des pages de sensibilisation |
 | **Polina Makhmudova** | Lead technique et développement web | Architecture du site, base de données des marques, moteur de recherche, intégration des maquettes, tests et mise en ligne |
 
-## ✨ Fonctionnalités prévues
+## Fonctionnalités prévues
 
 - Menu principal et choix de langue FR/EN
 - Recherche d'une marque ou d'un produit, avec suggestions
@@ -33,7 +33,7 @@ Grâce à un moteur de recherche par marque ou par produit, l'utilisateur vérif
 - FAQ en accordéon
 - Eco-Quiz sur 3 niveaux, avec score et correction
 
-## 🛠️ Outils utilisés
+## Outils utilisés
 
 - **WordPress** et le thème parent **Twenty Twenty-Five** : CMS du site
 - **Advanced Custom Fields (ACF)** : champs des fiches marques et produits
@@ -43,7 +43,7 @@ Grâce à un moteur de recherche par marque ou par produit, l'utilisateur vérif
 - **Visual Studio Code** : éditeur de code
 - **GitHub Projects** : suivi des tâches
 
-## 📁 Structure du thème
+## Structure du thème
 
 ```
 cruelty-check-child/
@@ -51,11 +51,13 @@ cruelty-check-child/
 ├── parts/          → parties réutilisables (en-tête, pied de page)
 ├── patterns/       → compositions de blocs
 ├── templates/      → modèles de pages (accueil, fiche marque…)
+├── .gitignore      → fichiers que Git ne doit pas envoyer sur GitHub
 ├── functions.php   → fonctions du thème
+├── README.md       → présentation du projet et conventions de l'équipe
 └── style.css       → identité du thème et styles
 ```
 
-## 📏 Nos conventions
+## Nos conventions
 
 ### Branches
 - `main` : version stable, on ne travaille **jamais** directement dessus
