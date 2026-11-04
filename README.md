@@ -32,6 +32,34 @@ Grâce à un moteur de recherche par marque ou par produit, l'utilisateur vérif
 - Guide des mentions (Cruelty-Free, Vegan, Emballage responsable)
 - FAQ en accordéon
 - Eco-Quiz sur 3 niveaux, avec score et correction
+- Chatbot IA « Besoin d'aide ? » sur les mentions cruelty-free, végan et emballage responsable
+
+## 🤖 Fonction intelligente : le chatbot IA
+
+**Pourquoi ?** Nos visiteurs confondent souvent les mentions végan, cruelty-free et
+emballage responsable, et doivent chercher l'information sur plusieurs pages.
+Le chatbot leur donne une explication simple en quelques secondes.
+
+**Comment ça marche ?**
+- **Où :** un bouton « Besoin d'aide ? » visible sur toutes les pages
+- **Entrée :** le visiteur pose sa question
+- **Traitement :** le chatbot cherche la réponse uniquement dans les contenus du site
+  (guide des mentions, FAQ, fiches marques et produits)
+- **Sortie :** une explication simple, avec un lien vers la page correspondante
+
+**Limites :** il ne cherche pas sur Internet, ne crée pas de nouveaux contenus et
+ne répond qu'à partir des informations du site.
+
+**Solution de repli :** si le chatbot ne peut pas répondre (service indisponible,
+question hors sujet), le visiteur est redirigé vers la FAQ et le guide des mentions.
+
+**Outil :** Chatbase ou équivalent, à confirmer après les tests
+(version gratuite avec un quota de messages).
+
+**Sécurité et transparence**
+- Aucune clé d'accès dans le code ni dans GitHub
+- Aucune donnée personnelle envoyée à l'IA
+- Un message indique clairement au visiteur qu'il parle à une IA
 
 ## Outils utilisés
 
