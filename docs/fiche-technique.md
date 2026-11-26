@@ -113,4 +113,10 @@ au validateur W3C : ... Pour notre site, nous retenons que [___].
 
 *Cette fiche évoluera avec le projet : wireframes, maquettes et design system.*
 
+## Justification du design system (Atelier DFEF #4)
 
+1. **Tokens dans `theme.json`** : 5 couleurs nommées par rôle (fond, surface, principale, texte, surface-alt), 2 polices Google gratuites proches de la maquette (Playfair Display, Source Serif 4), 4 tailles dont 2 fluides et 4 espacements. La palette est verrouillée dans Gutenberg pour garder un site cohérent.
+2. **Composant `eco-card`** (`assets/css/components/card.css`) : aucune valeur en dur, uniquement des variables issues de `theme.json`, avec `:hover`, `:focus-within`, `:focus-visible` et `prefers-reduced-motion`. Il est réutilisé dans la composition `grille-cartes` et dans la fiche marque.
+3. **Structure** : en-tête et pied de page en parties de modèle, grille de cartes en composition, et modèles `front-page.html` et `page.html` pour n'avoir qu'un seul `h1` par page. Le menu devient un burger sur mobile.
+4. **Accessibilité** : contrastes élevés (texte vert foncé sur fond crème, texte crème sur le pied de page vert foncé), texte alternatif sur chaque image, label sur la barre de recherche, langue `fr-FR`.
+5. **Images et responsive** : images converties en WebP (640 Ko → 23,8 Ko, soit −96 %) et servies en plusieurs tailles grâce au `srcset` de WordPress. Pages testées en 375, 768 et 1280 px, sans défilement horizontal.
