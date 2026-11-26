@@ -1,0 +1,46 @@
+.eco-card {
+  background: var(--wp--preset--color--surface);
+  color: var(--wp--preset--color--texte);
+  padding: var(--wp--preset--spacing--l);
+  border: var(--wp--custom--bordure) solid var(--wp--preset--color--principale);
+  border-radius: var(--wp--custom--rayon);
+  transition:
+    transform var(--wp--custom--duree),
+    box-shadow var(--wp--custom--duree);
+}
+.wp-block-group.eco-card {
+  padding: var(--wp--preset--spacing--l);
+}
+.eco-card :is(h2, h3) {
+  margin-top: 0;
+  font-family: var(--wp--preset--font-family--titre);
+  color: var(--wp--preset--color--principale);
+}
+
+/* Survol, et focus clavier sur un lien ou un bouton de la carte : la carte se soulève */
+.eco-card:hover,
+.eco-card:focus-within {
+  transform: translateY(calc(var(--wp--preset--spacing--s) * -1));
+  box-shadow: var(--wp--custom--ombre);
+}
+
+/* Focus clavier bien visible sur les liens et boutons de la carte */
+.eco-card :is(a, .wp-element-button):focus-visible {
+  outline: var(--wp--custom--bordure) solid var(--wp--preset--color--texte);
+  outline-offset: var(--wp--preset--spacing--s);
+}
+
+/* Accessibilité : pas de mouvement si l'utilisateur l'a demandé */
+@media (prefers-reduced-motion: reduce) {
+  .eco-card {
+    transition: none;
+  }
+  .eco-card:hover,
+  .eco-card:focus-within {
+    transform: none;
+  }
+}
+
+.eco-card .wp-element-button {
+  border: var(--wp--custom--bordure) solid var(--wp--preset--color--principale);
+}
