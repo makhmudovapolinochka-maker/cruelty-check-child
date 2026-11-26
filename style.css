@@ -3,13 +3,34 @@ Theme Name: Cruelty Check Child
 Description: Thème enfant de Twenty Twenty-Five pour le projet Cruelty Check
 Author: Polina Makhmudova & Ihsan Allali
 Template: twentytwentyfive
-Version: 1.0.0
+Version: 1.1.0
 Text Domain: cruelty-check-child
 */
 
-/* Vos styles personnalisés commencent ici */
-:root {
-    --primary-color: #f1dede; /* Couleur principale */
-    --secondary-color: #fbf6ee ; /* Couleur secondaire */
-    --font-family: 'Arial', sans-serif; /* Police de caractères */
+/* Les tokens (couleurs, polices, tailles, espacements) sont dans theme.json */
+.eco-header {
+  gap: var(--wp--preset--spacing--m);
+  padding: var(--wp--preset--spacing--m) var(--wp--preset--spacing--l);
+  background: var(--wp--preset--color--surface);
+}
+/* Pied de page : fond vert foncé, texte crème (contraste élevé) */
+.eco-footer {
+  padding: var(--wp--preset--spacing--xl) var(--wp--preset--spacing--l);
+  background: var(--wp--preset--color--texte);
+  color: var(--wp--preset--color--fond);
+}
+
+.eco-footer__haut {
+  gap: var(--wp--preset--spacing--l);
+}
+
+/* Les liens et le titre du site héritent du crème */
+.eco-footer a {
+  color: var(--wp--preset--color--fond);
+}
+
+/* Icônes TikTok et Instagram : crème au lieu des couleurs des marques
+   (sinon le logo TikTok noir disparaît sur le vert foncé) */
+.eco-footer .wp-block-social-links.is-style-logos-only .wp-social-link {
+  color: var(--wp--preset--color--fond);
 }
